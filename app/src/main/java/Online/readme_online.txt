@@ -1,0 +1,1 @@
+Gồm các hàm, api để kết nối server

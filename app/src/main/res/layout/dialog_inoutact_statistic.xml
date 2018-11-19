@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/dialog_inoutact_statistic_img_CarIn"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/dialog_inoutact_statistic_img_CarIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/dialog_inoutact_statistic_txt_SmartCardCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mã thẻ:"/>
+        <TextView
+            android:id="@+id/dialog_inoutact_statistic_txt_Digit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Biển số:"/>
+        <TextView
+            android:id="@+id/dialog_inoutact_statistic_txt_TimeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TG Vào:"/>
+        <TextView
+            android:id="@+id/dialog_inoutact_statistic_txt_TimeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TG Ra:"/>
+        <TextView
+            android:id="@+id/dialog_inoutact_statistic_txt_Cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiền thu:"/>
+        <TextView
+            android:id="@+id/dialog_inoutact_statistic_txt_Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tình trạng: "/>
+
+        <Button
+            android:id="@+id/dialog_inoutact_statistic_btn_SaveLostCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="LƯU MẤT THẺ"
+            android:textColor="#007700"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

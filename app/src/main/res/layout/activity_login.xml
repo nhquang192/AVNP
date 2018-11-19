@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.nhquang.parking3.LoginActivity">
+
+    <EditText
+        android:id="@+id/login_edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:enabled="true"
+        android:hint="Tên đăng nhập" />
+
+    <EditText
+        android:id="@+id/login_edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#007700"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="ĐĂNG NHẬP" />
+
+    <Button
+        android:id="@+id/login_btn_TraCuu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#007700"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="TRA CỨU VÀO-RA" />
+</LinearLayout>
